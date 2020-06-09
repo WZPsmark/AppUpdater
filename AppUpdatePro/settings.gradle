@@ -1,0 +1,3 @@
+rootProject.name='AppUpdatePro'
+include ':app'
+include ':sk_appupdate'
