@@ -209,3 +209,7 @@ SkAppUpdater.init(this)
 ![image](./y1.png)
 
 ![image](./y2.png)
+
+体验apk二维码：
+
+![image](./ewm.png)
