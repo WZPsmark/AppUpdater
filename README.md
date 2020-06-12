@@ -7,8 +7,32 @@
 1、添加依赖：
 
 ```
-implementation project(":sk_appupdate")
+implementation 'com.sk.appupdate:sk_appupdate:1.0.1'
 ```
+
+点击同步，如同步不成功则在项目build.gradle 文件中加入 
+
+maven { url ="[https://dl.bintray.com/smarkorg/maven](https://dl.bintray.com/smarkorg/maven)" } 
+
+如下：
+
+```
+allprojects {
+repositories {
+    google()
+    jcenter()
+    maven {
+        url ="https://dl.bintray.com/smarkorg/maven"
+    }
+    
+}
+```
+
+}
+
+同步后即可使用。
+
+
 
 2、初始化（传入版本信息地址/接口）：
 
